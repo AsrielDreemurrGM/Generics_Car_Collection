@@ -23,13 +23,29 @@ public class App {
 		carList.add(new Honda("Civic"));
 		carList.add(new Toyota("Corolla"));
 
-		System.out.println("Printing carList With Wildcard");
+		System.out.println("Printing carList With Wildcard:");
 		printCarList(carList);
+
+		System.out.println("\nPrinting carList With Generic Method:");
+		printGenericList(carList);
+
+		List<String> stringList = new ArrayList<>();
+		stringList.add("Hello World");
+		stringList.add("Hello Java World");
+
+		System.out.println("\nPrinting stringList With Generic Method:");
+		printGenericList(stringList);
 	}
 
 	public static void printCarList(List<? extends Car> carList) {
 		for (Car car : carList) {
 			car.showInformation();
+		}
+	}
+
+	public static <T> void printGenericList(List<T> list) {
+		for (T eachEntity : list) {
+			System.out.println(eachEntity);
 		}
 	}
 }

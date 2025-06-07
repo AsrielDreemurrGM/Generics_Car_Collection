@@ -32,4 +32,8 @@ public abstract class Car {
 		this.model = model;
 	}
 
+	@Override
+	public String toString() {
+		return brand + " Car - Model: " + model;
+	}
 }
