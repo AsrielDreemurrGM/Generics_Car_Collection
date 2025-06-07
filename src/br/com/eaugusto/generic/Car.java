@@ -3,7 +3,7 @@
  * @since Jun 6, 2025
  */
 
-package br.com.eaugusto.genericmodels;
+package br.com.eaugusto.generic;
 
 public abstract class Car {
 	private String model;

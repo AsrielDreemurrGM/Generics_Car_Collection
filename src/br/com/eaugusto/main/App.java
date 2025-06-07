@@ -8,10 +8,10 @@ package br.com.eaugusto.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.eaugusto.genericmodels.Car;
-import br.com.eaugusto.genericmodels.Honda;
-import br.com.eaugusto.genericmodels.Hyundai;
-import br.com.eaugusto.genericmodels.Toyota;
+import br.com.eaugusto.generic.Car;
+import br.com.eaugusto.generic.Honda;
+import br.com.eaugusto.generic.Hyundai;
+import br.com.eaugusto.generic.Toyota;
 
 public class App {
 

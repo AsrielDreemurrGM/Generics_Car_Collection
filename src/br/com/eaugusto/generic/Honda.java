@@ -3,7 +3,7 @@
  * @since Jun 7, 2025
  */
 
-package br.com.eaugusto.genericmodels;
+package br.com.eaugusto.generic;
 
 public class Honda extends Car {
 

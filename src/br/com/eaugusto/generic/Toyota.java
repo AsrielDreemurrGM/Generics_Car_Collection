@@ -3,12 +3,12 @@
  * @since Jun 7, 2025
  */
 
-package br.com.eaugusto.genericmodels;
+package br.com.eaugusto.generic;
 
-public class Hyundai extends Car {
+public class Toyota extends Car {
 
-	public Hyundai(String model) {
-		super(model, "Hyundai");
+	public Toyota(String model) {
+		super(model, "Toyota");
 	}
 
 	@Override
