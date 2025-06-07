@@ -23,8 +23,13 @@ public class App {
 		carList.add(new Honda("Civic"));
 		carList.add(new Toyota("Corolla"));
 
-		for (Car eachCar : carList) {
-			eachCar.showInformation();
+		System.out.println("Printing carList With Wildcard");
+		printCarList(carList);
+	}
+
+	public static void printCarList(List<? extends Car> carList) {
+		for (Car car : carList) {
+			car.showInformation();
 		}
 	}
 }
